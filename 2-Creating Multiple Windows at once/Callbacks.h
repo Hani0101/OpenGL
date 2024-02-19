@@ -7,7 +7,7 @@ static void glfw_error_callback(int error, const char* description)
 	throw("glfw.error");
 }
 
-static void glfw_window_clone_callback(GLFWwindow* window)
+static void glfw_window_close_callback(GLFWwindow* window)
 {
 	printf("window closed\n");
 }
